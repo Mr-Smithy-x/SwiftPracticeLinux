@@ -1,0 +1,113 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+- "CV13SwiftPractice6Server4HTTP"
+provides-member:
+- ["V13SwiftPractice6Server", ""]
+- ["CV13SwiftPractice6Server4HTTP", ""]
+- ["V13SwiftPractice6Server", "HTTP"]
+depends-top-level:
+- "ServerType"
+- !private "RequestMessage"
+- "ServerDataSource"
+- !private "Response"
+- "SwiftFoundation"
+- !private "ResponseMessage"
+- "Model"
+- "ServerDelegate"
+- !private "StatusCode"
+- "Server"
+depends-member:
+- !private ["Ps9AnyObject", "RequestMessage"]
+- !private ["Ps9AnyObject", "Response"]
+- !private ["Ps9AnyObject", "ResponseMessage"]
+- ["Ps9AnyObject", "Server"]
+- !private ["Ps9AnyObject", "StatusCode"]
+- ["Ps9AnyObject", "input"]
+- !private ["Ps9AnyObject", "process"]
+- ["Ps9AnyObject", ""]
+- !private ["Ps9Equatable", "BadRequest"]
+- !private ["Ps9Equatable", "rawValue"]
+- ["CV13SwiftPractice6Server4HTTP", "Input"]
+- ["CV13SwiftPractice6Server4HTTP", "Model"]
+- ["CV13SwiftPractice6Server4HTTP", "Output"]
+- !private ["CV13SwiftPractice6Server4HTTP", "RequestMessage"]
+- !private ["CV13SwiftPractice6Server4HTTP", "Response"]
+- !private ["CV13SwiftPractice6Server4HTTP", "ResponseMessage"]
+- ["CV13SwiftPractice6Server4HTTP", "Server"]
+- ["CV13SwiftPractice6Server4HTTP", "ServerDataSource"]
+- ["CV13SwiftPractice6Server4HTTP", "ServerDelegate"]
+- !private ["CV13SwiftPractice6Server4HTTP", "StatusCode"]
+- ["CV13SwiftPractice6Server4HTTP", "SwiftFoundation"]
+- ["CV13SwiftPractice6Server4HTTP", "dataSource"]
+- ["CV13SwiftPractice6Server4HTTP", "deinit"]
+- ["CV13SwiftPractice6Server4HTTP", "delegate"]
+- ["CV13SwiftPractice6Server4HTTP", "input"]
+- !private ["CV13SwiftPractice6Server4HTTP", "process"]
+- ["CV13SwiftPractice6Server4HTTP", "settings"]
+- !private ["Ps8Hashable", "BadRequest"]
+- !private ["Ps8Hashable", "rawValue"]
+- !private ["SQ", "deinit"]
+- !private ["Sq", "deinit"]
+- !private ["Ps16RawRepresentable", "BadRequest"]
+- !private ["Ps16RawRepresentable", "rawValue"]
+- !private ["O13SwiftPractice8Response", "Error"]
+- ["V13SwiftPractice15ResponseMessage", "init"]
+- ["V13SwiftPractice6Server", "HTTP"]
+- ["V13SwiftPractice6Server", "Model"]
+- !private ["V13SwiftPractice6Server", "RequestMessage"]
+- !private ["V13SwiftPractice6Server", "Response"]
+- !private ["V13SwiftPractice6Server", "ResponseMessage"]
+- ["V13SwiftPractice6Server", "Server"]
+- ["V13SwiftPractice6Server", "ServerDataSource"]
+- ["V13SwiftPractice6Server", "ServerDelegate"]
+- ["V13SwiftPractice6Server", "ServerType"]
+- ["V13SwiftPractice6Server", "Settings"]
+- !private ["V13SwiftPractice6Server", "StatusCode"]
+- ["V13SwiftPractice6Server", "SwiftFoundation"]
+- !private ["P13SwiftPractice10ServerType", "RequestMessage"]
+- !private ["P13SwiftPractice10ServerType", "Response"]
+- !private ["P13SwiftPractice10ServerType", "ResponseMessage"]
+- ["P13SwiftPractice10ServerType", "Server"]
+- !private ["P13SwiftPractice10ServerType", "StatusCode"]
+- ["P13SwiftPractice10ServerType", "input"]
+- !private ["P13SwiftPractice10ServerType", "process"]
+- ["VV13SwiftPractice6Server8Settings", "init"]
+- !private ["O13SwiftPractice10StatusCode", "BadRequest"]
+- !private ["O13SwiftPractice10StatusCode", "deinit"]
+- !private ["O13SwiftPractice10StatusCode", "rawValue"]
+depends-nominal:
+- "Ps9AnyObject"
+- !private "Ps9Equatable"
+- "CV13SwiftPractice6Server4HTTP"
+- !private "Ps8Hashable"
+- !private "SQ"
+- !private "Sq"
+- !private "Ps16RawRepresentable"
+- !private "O13SwiftPractice8Response"
+- "V13SwiftPractice15ResponseMessage"
+- "V13SwiftPractice6Server"
+- "P13SwiftPractice10ServerType"
+- "VV13SwiftPractice6Server8Settings"
+- !private "O13SwiftPractice10StatusCode"
+depends-dynamic-lookup:
+depends-external:
+- "/usr/lib/swift/linux/x86_64/Swift.swiftmodule"
+- "/usr/lib/swift/shims/Visibility.h"
+- "/usr/lib/swift/shims/SwiftStdint.h"
+- "/usr/lib/swift/shims/UnicodeShims.h"
+- "/usr/lib/swift/shims/SwiftStddef.h"
+- "/usr/lib/swift/shims/LibcShims.h"
+- "/usr/lib/swift/shims/RuntimeStubs.h"
+- "/usr/lib/swift/shims/RuntimeShims.h"
+- "/usr/lib/swift/shims/RefCount.h"
+- "/usr/lib/swift/shims/HeapObject.h"
+- "/usr/lib/swift/shims/GlobalObjects.h"
+- "/usr/lib/swift/shims/FoundationShims.h"
+- "/usr/lib/swift/shims/CoreFoundationShims.h"
+- "/usr/lib/swift/linux/x86_64/glibc.modulemap"
+- "/usr/lib/swift/shims/module.map"
+- "/usr/lib/swift/linux/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/usr/lib/swift/linux/x86_64/Foundation.swiftmodule"
+- "/usr/lib/swift/linux/x86_64/Glibc.swiftmodule"
+interface-hash: "62a7fd24c41a3ce463f2ab705f455235"

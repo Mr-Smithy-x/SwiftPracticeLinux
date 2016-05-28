@@ -1,0 +1,44 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Response"
+provides-nominal:
+- "O13SwiftPractice8Response"
+provides-member:
+- ["O13SwiftPractice8Response", ""]
+depends-top-level:
+- "String"
+- "Int"
+- "ValuesObject"
+- "Response"
+- "JSONObject"
+depends-member:
+- ["O13SwiftPractice8Response", "Delete"]
+- ["O13SwiftPractice8Response", "Error"]
+- ["O13SwiftPractice8Response", "Int"]
+- ["O13SwiftPractice8Response", "JSONObject"]
+- ["O13SwiftPractice8Response", "Search"]
+- ["O13SwiftPractice8Response", "String"]
+- ["O13SwiftPractice8Response", "ValuesObject"]
+depends-nominal:
+- "O13SwiftPractice8Response"
+depends-dynamic-lookup:
+depends-external:
+- "/usr/lib/swift/linux/x86_64/Swift.swiftmodule"
+- "/usr/lib/swift/shims/Visibility.h"
+- "/usr/lib/swift/shims/SwiftStdint.h"
+- "/usr/lib/swift/shims/UnicodeShims.h"
+- "/usr/lib/swift/shims/SwiftStddef.h"
+- "/usr/lib/swift/shims/LibcShims.h"
+- "/usr/lib/swift/shims/RuntimeStubs.h"
+- "/usr/lib/swift/shims/RuntimeShims.h"
+- "/usr/lib/swift/shims/RefCount.h"
+- "/usr/lib/swift/shims/HeapObject.h"
+- "/usr/lib/swift/shims/GlobalObjects.h"
+- "/usr/lib/swift/shims/FoundationShims.h"
+- "/usr/lib/swift/shims/CoreFoundationShims.h"
+- "/usr/lib/swift/linux/x86_64/glibc.modulemap"
+- "/usr/lib/swift/shims/module.map"
+- "/usr/lib/swift/linux/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/usr/lib/swift/linux/x86_64/Foundation.swiftmodule"
+- "/usr/lib/swift/linux/x86_64/Glibc.swiftmodule"
+interface-hash: "5bfd4c462bac9c3b0956d15e666eb8a5"

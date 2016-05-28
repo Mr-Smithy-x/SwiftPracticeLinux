@@ -1,0 +1,31 @@
+client:
+  name: swift-build
+tools: {}
+targets:
+  "test": []
+  "main": ["<SwiftPractice.module>","<SwiftPractice.exe>"]
+default: "main"
+commands: 
+  "<SwiftPractice.module>":
+    tool: swift-compiler
+    executable: "/usr/bin/swiftc"
+    module-name: "SwiftPractice"
+    module-output-path: "/home/cj/ClionProjects/SwiftPractice/.build/debug/SwiftPractice.swiftmodule"
+    inputs: []
+    outputs: ["<SwiftPractice.module>","/home/cj/ClionProjects/SwiftPractice/.build/debug/SwiftPractice.build/KeyValuePair.swift.o","/home/cj/ClionProjects/SwiftPractice/.build/debug/SwiftPractice.build/List.swift.o","/home/cj/ClionProjects/SwiftPractice/.build/debug/SwiftPractice.build/CoolClass.swift.o","/home/cj/ClionProjects/SwiftPractice/.build/debug/SwiftPractice.build/main.swift.o"]
+    import-paths: ["/home/cj/ClionProjects/SwiftPractice/.build/debug"]
+    temps-path: "/home/cj/ClionProjects/SwiftPractice/.build/debug/SwiftPractice.build"
+    objects: ["/home/cj/ClionProjects/SwiftPractice/.build/debug/SwiftPractice.build/KeyValuePair.swift.o","/home/cj/ClionProjects/SwiftPractice/.build/debug/SwiftPractice.build/List.swift.o","/home/cj/ClionProjects/SwiftPractice/.build/debug/SwiftPractice.build/CoolClass.swift.o","/home/cj/ClionProjects/SwiftPractice/.build/debug/SwiftPractice.build/main.swift.o"]
+    other-args: ["-j8","-D","SWIFT_PACKAGE","-Onone","-g","-enable-testing","-module-cache-path","/home/cj/ClionProjects/SwiftPractice/.build/debug/ModuleCache"]
+    sources: ["/home/cj/ClionProjects/SwiftPractice/sources/KeyValuePair.swift","/home/cj/ClionProjects/SwiftPractice/sources/List.swift","/home/cj/ClionProjects/SwiftPractice/sources/CoolClass.swift","/home/cj/ClionProjects/SwiftPractice/sources/main.swift"]
+    is-library: false
+    enable-whole-module-optimization: false
+    num-threads: "8"
+
+  "<SwiftPractice.exe>":
+    tool: shell
+    description: "Linking .build/debug/SwiftPractice"
+    inputs: ["/home/cj/ClionProjects/SwiftPractice/.build/debug/SwiftPractice.build/KeyValuePair.swift.o","/home/cj/ClionProjects/SwiftPractice/.build/debug/SwiftPractice.build/List.swift.o","/home/cj/ClionProjects/SwiftPractice/.build/debug/SwiftPractice.build/CoolClass.swift.o","/home/cj/ClionProjects/SwiftPractice/.build/debug/SwiftPractice.build/main.swift.o"]
+    outputs: ["<SwiftPractice.exe>","/home/cj/ClionProjects/SwiftPractice/.build/debug/SwiftPractice"]
+    args: ["/usr/bin/swiftc","-Xlinker","-rpath=$ORIGIN","-g","-L/home/cj/ClionProjects/SwiftPractice/.build/debug","-o","/home/cj/ClionProjects/SwiftPractice/.build/debug/SwiftPractice","-emit-executable","/home/cj/ClionProjects/SwiftPractice/.build/debug/SwiftPractice.build/KeyValuePair.swift.o","/home/cj/ClionProjects/SwiftPractice/.build/debug/SwiftPractice.build/List.swift.o","/home/cj/ClionProjects/SwiftPractice/.build/debug/SwiftPractice.build/CoolClass.swift.o","/home/cj/ClionProjects/SwiftPractice/.build/debug/SwiftPractice.build/main.swift.o"]
+

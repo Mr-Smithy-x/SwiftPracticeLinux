@@ -1,0 +1,50 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+- "OV13SwiftPractice6Client5Error"
+provides-member:
+- ["V13SwiftPractice6Client", ""]
+- ["OV13SwiftPractice6Client5Error", ""]
+- ["V13SwiftPractice6Client", "Error"]
+depends-top-level:
+- "ErrorType"
+- "Client"
+- "Int"
+depends-member:
+- ["V13SwiftPractice6Client", "Error"]
+- ["V13SwiftPractice6Client", "ErrorType"]
+- ["V13SwiftPractice6Client", "Int"]
+- ["OV13SwiftPractice6Client5Error", "ErrorStatusCode"]
+- ["OV13SwiftPractice6Client5Error", "Int"]
+- ["OV13SwiftPractice6Client5Error", "InvalidRequest"]
+- ["OV13SwiftPractice6Client5Error", "InvalidResponse"]
+- ["OV13SwiftPractice6Client5Error", "RawValue"]
+- ["OV13SwiftPractice6Client5Error", "init"]
+- ["OV13SwiftPractice6Client5Error", "rawValue"]
+- ["Ps16RawRepresentable", "init"]
+- ["Ps16RawRepresentable", "rawValue"]
+depends-nominal:
+- "V13SwiftPractice6Client"
+- "OV13SwiftPractice6Client5Error"
+- "Ps16RawRepresentable"
+depends-dynamic-lookup:
+depends-external:
+- "/usr/lib/swift/linux/x86_64/Swift.swiftmodule"
+- "/usr/lib/swift/shims/Visibility.h"
+- "/usr/lib/swift/shims/SwiftStdint.h"
+- "/usr/lib/swift/shims/UnicodeShims.h"
+- "/usr/lib/swift/shims/SwiftStddef.h"
+- "/usr/lib/swift/shims/LibcShims.h"
+- "/usr/lib/swift/shims/RuntimeStubs.h"
+- "/usr/lib/swift/shims/RuntimeShims.h"
+- "/usr/lib/swift/shims/RefCount.h"
+- "/usr/lib/swift/shims/HeapObject.h"
+- "/usr/lib/swift/shims/GlobalObjects.h"
+- "/usr/lib/swift/shims/FoundationShims.h"
+- "/usr/lib/swift/shims/CoreFoundationShims.h"
+- "/usr/lib/swift/linux/x86_64/glibc.modulemap"
+- "/usr/lib/swift/shims/module.map"
+- "/usr/lib/swift/linux/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/usr/lib/swift/linux/x86_64/Foundation.swiftmodule"
+- "/usr/lib/swift/linux/x86_64/Glibc.swiftmodule"
+interface-hash: "20afb0d5d5ad2cb9f9dd1ed357ff46ac"

@@ -1,0 +1,45 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "KeyValuePair"
+provides-nominal:
+- "C13SwiftPractice12KeyValuePair"
+provides-member:
+- ["C13SwiftPractice12KeyValuePair", ""]
+depends-top-level:
+- "KeyValuePair"
+depends-member:
+- !private ["Ps9AnyObject", "key"]
+- !private ["Ps9AnyObject", "value"]
+- ["Ps9AnyObject", ""]
+- ["C13SwiftPractice12KeyValuePair", "K"]
+- ["C13SwiftPractice12KeyValuePair", "V"]
+- ["C13SwiftPractice12KeyValuePair", "deinit"]
+- ["C13SwiftPractice12KeyValuePair", "getKey"]
+- ["C13SwiftPractice12KeyValuePair", "getValue"]
+- ["C13SwiftPractice12KeyValuePair", "init"]
+- ["C13SwiftPractice12KeyValuePair", "key"]
+- ["C13SwiftPractice12KeyValuePair", "value"]
+depends-nominal:
+- "Ps9AnyObject"
+- "C13SwiftPractice12KeyValuePair"
+depends-dynamic-lookup:
+depends-external:
+- "/usr/lib/swift/linux/x86_64/Swift.swiftmodule"
+- "/usr/lib/swift/shims/Visibility.h"
+- "/usr/lib/swift/shims/SwiftStdint.h"
+- "/usr/lib/swift/shims/UnicodeShims.h"
+- "/usr/lib/swift/shims/SwiftStddef.h"
+- "/usr/lib/swift/shims/LibcShims.h"
+- "/usr/lib/swift/shims/RuntimeStubs.h"
+- "/usr/lib/swift/shims/RuntimeShims.h"
+- "/usr/lib/swift/shims/RefCount.h"
+- "/usr/lib/swift/shims/HeapObject.h"
+- "/usr/lib/swift/shims/GlobalObjects.h"
+- "/usr/lib/swift/shims/FoundationShims.h"
+- "/usr/lib/swift/shims/CoreFoundationShims.h"
+- "/usr/lib/swift/linux/x86_64/glibc.modulemap"
+- "/usr/lib/swift/shims/module.map"
+- "/usr/lib/swift/linux/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/usr/lib/swift/linux/x86_64/Foundation.swiftmodule"
+- "/usr/lib/swift/linux/x86_64/Glibc.swiftmodule"
+interface-hash: "cdb5aaeee9e07c73d809ff70afd33650"

@@ -1,0 +1,29 @@
+{
+  "": {
+    "swift-dependencies": "/home/cj/ClionProjects/SwiftPractice/.build/debug/SwiftPractice.build/master.swiftdeps"
+  },
+  "/home/cj/ClionProjects/SwiftPractice/sources/KeyValuePair.swift": {
+    "dependencies": "/home/cj/ClionProjects/SwiftPractice/.build/debug/SwiftPractice.build/KeyValuePair.d",
+    "object": "/home/cj/ClionProjects/SwiftPractice/.build/debug/SwiftPractice.build/KeyValuePair.swift.o",
+    "swiftmodule": "/home/cj/ClionProjects/SwiftPractice/.build/debug/SwiftPractice.build/KeyValuePair~partial.swiftmodule",
+    "swift-dependencies": "/home/cj/ClionProjects/SwiftPractice/.build/debug/SwiftPractice.build/KeyValuePair.swiftdeps"
+  },
+  "/home/cj/ClionProjects/SwiftPractice/sources/List.swift": {
+    "dependencies": "/home/cj/ClionProjects/SwiftPractice/.build/debug/SwiftPractice.build/List.d",
+    "object": "/home/cj/ClionProjects/SwiftPractice/.build/debug/SwiftPractice.build/List.swift.o",
+    "swiftmodule": "/home/cj/ClionProjects/SwiftPractice/.build/debug/SwiftPractice.build/List~partial.swiftmodule",
+    "swift-dependencies": "/home/cj/ClionProjects/SwiftPractice/.build/debug/SwiftPractice.build/List.swiftdeps"
+  },
+  "/home/cj/ClionProjects/SwiftPractice/sources/CoolClass.swift": {
+    "dependencies": "/home/cj/ClionProjects/SwiftPractice/.build/debug/SwiftPractice.build/CoolClass.d",
+    "object": "/home/cj/ClionProjects/SwiftPractice/.build/debug/SwiftPractice.build/CoolClass.swift.o",
+    "swiftmodule": "/home/cj/ClionProjects/SwiftPractice/.build/debug/SwiftPractice.build/CoolClass~partial.swiftmodule",
+    "swift-dependencies": "/home/cj/ClionProjects/SwiftPractice/.build/debug/SwiftPractice.build/CoolClass.swiftdeps"
+  },
+  "/home/cj/ClionProjects/SwiftPractice/sources/main.swift": {
+    "dependencies": "/home/cj/ClionProjects/SwiftPractice/.build/debug/SwiftPractice.build/main.d",
+    "object": "/home/cj/ClionProjects/SwiftPractice/.build/debug/SwiftPractice.build/main.swift.o",
+    "swiftmodule": "/home/cj/ClionProjects/SwiftPractice/.build/debug/SwiftPractice.build/main~partial.swiftmodule",
+    "swift-dependencies": "/home/cj/ClionProjects/SwiftPractice/.build/debug/SwiftPractice.build/main.swiftdeps"
+  }
+}

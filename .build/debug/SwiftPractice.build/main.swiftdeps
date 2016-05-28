@@ -1,0 +1,64 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "params"
+- "doHello"
+- "ListStuff"
+- "KeyValuePairStuff"
+provides-nominal:
+provides-member:
+depends-top-level:
+- "CoolClass"
+- !private "IntegerLiteralType"
+- !private "KeyValuePair"
+- "StringLiteralType"
+- "doHello"
+- !private "Int"
+- !private "List"
+- "KeyValuePairStuff"
+- "params"
+- "String"
+- !private "FloatLiteralType"
+- !private "print"
+- "ListStuff"
+depends-member:
+- ["Ps9AnyObject", "Hello"]
+- !private ["Ps9AnyObject", "add"]
+- !private ["Ps9AnyObject", "getItem"]
+- !private ["Ps9AnyObject", "getKey"]
+- !private ["Ps9AnyObject", "getSize"]
+- !private ["Ps9AnyObject", "getValue"]
+- !private ["Ps9AnyObject", "init"]
+- ["C13SwiftPractice9CoolClass", "Hello"]
+- !private ["C13SwiftPractice12KeyValuePair", "getKey"]
+- !private ["C13SwiftPractice12KeyValuePair", "getValue"]
+- !private ["C13SwiftPractice12KeyValuePair", "init"]
+- !private ["C13SwiftPractice4List", "add"]
+- !private ["C13SwiftPractice4List", "getItem"]
+- !private ["C13SwiftPractice4List", "getSize"]
+- !private ["C13SwiftPractice4List", "init"]
+depends-nominal:
+- "Ps9AnyObject"
+- "C13SwiftPractice9CoolClass"
+- !private "C13SwiftPractice12KeyValuePair"
+- !private "C13SwiftPractice4List"
+depends-dynamic-lookup:
+depends-external:
+- "/usr/lib/swift/linux/x86_64/Swift.swiftmodule"
+- "/usr/lib/swift/shims/Visibility.h"
+- "/usr/lib/swift/shims/SwiftStdint.h"
+- "/usr/lib/swift/shims/UnicodeShims.h"
+- "/usr/lib/swift/shims/SwiftStddef.h"
+- "/usr/lib/swift/shims/LibcShims.h"
+- "/usr/lib/swift/shims/RuntimeStubs.h"
+- "/usr/lib/swift/shims/RuntimeShims.h"
+- "/usr/lib/swift/shims/RefCount.h"
+- "/usr/lib/swift/shims/HeapObject.h"
+- "/usr/lib/swift/shims/GlobalObjects.h"
+- "/usr/lib/swift/shims/FoundationShims.h"
+- "/usr/lib/swift/shims/CoreFoundationShims.h"
+- "/usr/lib/swift/linux/x86_64/glibc.modulemap"
+- "/usr/lib/swift/shims/module.map"
+- "/usr/lib/swift/linux/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/usr/lib/swift/linux/x86_64/Foundation.swiftmodule"
+- "/usr/lib/swift/linux/x86_64/Glibc.swiftmodule"
+interface-hash: "60f8bd8342c660d00fb7b5f49bbb15d7"

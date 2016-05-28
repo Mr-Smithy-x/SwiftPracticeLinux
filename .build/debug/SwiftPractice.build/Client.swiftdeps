@@ -1,0 +1,90 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Client"
+- "ClientType"
+provides-nominal:
+- "V13SwiftPractice6Client"
+- "P13SwiftPractice10ClientType"
+provides-member:
+- ["V13SwiftPractice6Client", ""]
+- ["P13SwiftPractice10ClientType", ""]
+- ["P13SwiftPractice10ClientType", "search"]
+- ["P13SwiftPractice10ClientType", "create"]
+- ["P13SwiftPractice10ClientType", "get"]
+- ["P13SwiftPractice10ClientType", "edit"]
+- ["P13SwiftPractice10ClientType", "delete"]
+- ["P13SwiftPractice10ClientType", "performFunction"]
+depends-top-level:
+- "ClientType"
+- "FetchRequest"
+- "JSON"
+- "Resource"
+- !private "FloatLiteralType"
+- "ValuesObject"
+- "String"
+- !private "NetworkObjects"
+- "Client"
+- !private "StringLiteralType"
+- "Model"
+- "ResponseMessage"
+- !private "IntegerLiteralType"
+- "Response"
+- "TimeInterval"
+- "Request"
+- !private "fatalError"
+- "JSONObject"
+- "Void"
+depends-member:
+- ["V13SwiftPractice6Client", "init"]
+- ["P13SwiftPractice10ClientType", "FetchRequest"]
+- ["P13SwiftPractice10ClientType", "JSON"]
+- ["P13SwiftPractice10ClientType", "JSONObject"]
+- ["P13SwiftPractice10ClientType", "Model"]
+- !private ["P13SwiftPractice10ClientType", "NetworkObjects"]
+- ["P13SwiftPractice10ClientType", "Request"]
+- ["P13SwiftPractice10ClientType", "Resource"]
+- ["P13SwiftPractice10ClientType", "Response"]
+- ["P13SwiftPractice10ClientType", "ResponseMessage"]
+- ["P13SwiftPractice10ClientType", "String"]
+- ["P13SwiftPractice10ClientType", "TimeInterval"]
+- ["P13SwiftPractice10ClientType", "ValuesObject"]
+- ["P13SwiftPractice10ClientType", "Void"]
+- ["P13SwiftPractice10ClientType", "didRecieveResponse"]
+- !private ["P13SwiftPractice10ClientType", "fatalError"]
+- ["P13SwiftPractice10ClientType", "send"]
+- ["P13SwiftPractice10ClientType", "serverURL"]
+- ["P13SwiftPractice10ClientType", "willSendRequest"]
+- ["P13SwiftPractice10ClientType", ""]
+- !private ["O13SwiftPractice7Request", "Create"]
+- !private ["O13SwiftPractice7Request", "Delete"]
+- !private ["O13SwiftPractice7Request", "Edit"]
+- !private ["O13SwiftPractice7Request", "Function"]
+- !private ["O13SwiftPractice7Request", "Get"]
+- !private ["O13SwiftPractice7Request", "Search"]
+- !private ["Vs12StaticString", "deinit"]
+depends-nominal:
+- "V13SwiftPractice6Client"
+- "P13SwiftPractice10ClientType"
+- !private "O13SwiftPractice7Request"
+- !private "Vs12StaticString"
+depends-dynamic-lookup:
+depends-external:
+- "/usr/lib/swift/linux/x86_64/Swift.swiftmodule"
+- "/usr/lib/swift/shims/Visibility.h"
+- "/usr/lib/swift/shims/SwiftStdint.h"
+- "/usr/lib/swift/shims/UnicodeShims.h"
+- "/usr/lib/swift/shims/SwiftStddef.h"
+- "/usr/lib/swift/shims/LibcShims.h"
+- "/usr/lib/swift/shims/RuntimeStubs.h"
+- "/usr/lib/swift/shims/RuntimeShims.h"
+- "/usr/lib/swift/shims/RefCount.h"
+- "/usr/lib/swift/shims/HeapObject.h"
+- "/usr/lib/swift/shims/GlobalObjects.h"
+- "/usr/lib/swift/shims/FoundationShims.h"
+- "/usr/lib/swift/shims/CoreFoundationShims.h"
+- "/usr/lib/swift/linux/x86_64/glibc.modulemap"
+- "/usr/lib/swift/shims/module.map"
+- "/usr/lib/swift/linux/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/usr/lib/swift/linux/x86_64/Foundation.swiftmodule"
+- "/usr/lib/swift/linux/x86_64/Glibc.swiftmodule"
+interface-hash: "a1c1e4e7514f12b47c334031bf49a8c3"
