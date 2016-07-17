@@ -7,28 +7,28 @@ provides-top-level:
 provides-nominal:
 provides-member:
 depends-top-level:
-- "CoolClass"
-- !private "IntegerLiteralType"
-- !private "KeyValuePair"
-- "StringLiteralType"
-- "doHello"
-- !private "Int"
-- !private "List"
-- "KeyValuePairStuff"
-- "params"
-- "String"
-- !private "FloatLiteralType"
-- !private "print"
 - "ListStuff"
+- !private "FloatLiteralType"
+- !private "Int"
+- "KeyValuePairStuff"
+- !private "List"
+- !private "KeyValuePair"
+- "String"
+- "params"
+- "doHello"
+- !private "IntegerLiteralType"
+- "CoolClass"
+- !private "StringLiteralType"
+- !private "print"
 depends-member:
-- ["Ps9AnyObject", "Hello"]
+- ["Ps9AnyObject", "Network"]
 - !private ["Ps9AnyObject", "add"]
 - !private ["Ps9AnyObject", "getItem"]
 - !private ["Ps9AnyObject", "getKey"]
 - !private ["Ps9AnyObject", "getSize"]
 - !private ["Ps9AnyObject", "getValue"]
 - !private ["Ps9AnyObject", "init"]
-- ["C13SwiftPractice9CoolClass", "Hello"]
+- ["C13SwiftPractice9CoolClass", "Network"]
 - !private ["C13SwiftPractice12KeyValuePair", "getKey"]
 - !private ["C13SwiftPractice12KeyValuePair", "getValue"]
 - !private ["C13SwiftPractice12KeyValuePair", "init"]
@@ -61,4 +61,4 @@ depends-external:
 - "/usr/lib/swift/linux/x86_64/SwiftOnoneSupport.swiftmodule"
 - "/usr/lib/swift/linux/x86_64/Foundation.swiftmodule"
 - "/usr/lib/swift/linux/x86_64/Glibc.swiftmodule"
-interface-hash: "60f8bd8342c660d00fb7b5f49bbb15d7"
+interface-hash: "9622cedbdd30aae5d14200f93fbe6113"

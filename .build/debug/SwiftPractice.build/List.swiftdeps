@@ -6,8 +6,8 @@ provides-nominal:
 provides-member:
 - ["C13SwiftPractice4List", ""]
 depends-top-level:
-- "List"
 - "Int"
+- "List"
 depends-member:
 - ["Ps9AnyObject", "T"]
 - !private ["Ps9AnyObject", "list"]

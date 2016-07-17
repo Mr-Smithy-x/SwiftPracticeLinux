@@ -1,8 +1,8 @@
-version: "Swift version 3.0-dev (LLVM dffa09ffd8, Clang 9f0d189820, Swift 1c720b8f84)"
-options: "4fbde11975e31bd9959f7c1b5e81fbdb"
-build_time: [517725272, 300644000]
+version: "Swift version 3.0 (swift-3.0-PREVIEW-2)"
+options: "e7636c672978c20efa40b7ca29defb25"
+build_time: [522081033, 118901000]
 inputs:
+  "/home/cj/ClionProjects/SwiftPractice/sources/main.swift": [518200097, 0]
   "/home/cj/ClionProjects/SwiftPractice/sources/KeyValuePair.swift": [517725152, 0]
+  "/home/cj/ClionProjects/SwiftPractice/sources/CoolClass.swift": [522081026, 0]
   "/home/cj/ClionProjects/SwiftPractice/sources/List.swift": [517725152, 0]
-  "/home/cj/ClionProjects/SwiftPractice/sources/CoolClass.swift": [517725269, 0]
-  "/home/cj/ClionProjects/SwiftPractice/sources/main.swift": [517725261, 0]

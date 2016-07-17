@@ -6,19 +6,125 @@ provides-nominal:
 provides-member:
 - ["C13SwiftPractice9CoolClass", ""]
 depends-top-level:
-- !private "print"
+- !private "String"
 - "CoolClass"
+- !private "NSURL"
+- !private "NSError"
 - !private "StringLiteralType"
+- !private "print"
 depends-member:
+- !private ["Ps9AnyObject", "NSURL"]
+- !private ["Ps9AnyObject", "String"]
+- !private ["Ps9AnyObject", "init"]
 - !private ["Ps9AnyObject", "print"]
 - ["Ps9AnyObject", ""]
+- !private ["Sb", "deinit"]
+- !private ["P10Foundation10Bridgeable", "init"]
+- !private ["Vs9Character", "deinit"]
+- !private ["Ps10Comparable", "init"]
 - ["C13SwiftPractice9CoolClass", "Hello"]
+- !private ["C13SwiftPractice9CoolClass", "NSError"]
+- !private ["C13SwiftPractice9CoolClass", "NSURL"]
+- ["C13SwiftPractice9CoolClass", "Network"]
+- !private ["C13SwiftPractice9CoolClass", "String"]
 - ["C13SwiftPractice9CoolClass", "deinit"]
 - ["C13SwiftPractice9CoolClass", "init"]
 - !private ["C13SwiftPractice9CoolClass", "print"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- ["Ps28CustomDebugStringConvertible", "some"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps17CustomReflectable", "init"]
+- ["Ps17CustomReflectable", "some"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- !private ["Sd", "deinit"]
+- !private ["Ps9Equatable", "init"]
+- !private ["Ps41ExtendedGraphemeClusterLiteralConvertible", "init"]
+- !private ["Sf", "deinit"]
+- !private ["Ps8Hashable", "init"]
+- !private ["Si", "deinit"]
+- !private ["Vs5Int16", "deinit"]
+- !private ["Vs5Int32", "deinit"]
+- !private ["Vs5Int64", "deinit"]
+- !private ["Vs4Int8", "deinit"]
+- !private ["Ps10MirrorPath", "init"]
+- !private ["P10Foundation8NSCoding", "init"]
+- !private ["P10Foundation9NSCopying", "init"]
+- ["C10Foundation7NSError", "deinit"]
+- !private ["P10Foundation16NSObjectProtocol", "init"]
+- !private ["P10Foundation14NSSecureCoding", "init"]
+- !private ["C10Foundation5NSURL", "init"]
+- ["Ps21NilLiteralConvertible", "some"]
+- ["Sq", "some"]
+- !private ["Ps12OutputStream", "init"]
+- !private ["Ps10Streamable", "init"]
+- !private ["SS", "init"]
+- !private ["Ps30StringInterpolationConvertible", "init"]
+- !private ["Ps24StringLiteralConvertible", "init"]
+- !private ["Su", "deinit"]
+- !private ["Vs6UInt16", "deinit"]
+- !private ["Vs6UInt32", "deinit"]
+- !private ["Vs6UInt64", "deinit"]
+- !private ["Vs5UInt8", "deinit"]
+- !private ["Sc", "deinit"]
+- !private ["Ps31UnicodeScalarLiteralConvertible", "init"]
+- !private ["Ps49_BuiltinExtendedGraphemeClusterLiteralConvertible", "init"]
+- !private ["Ps32_BuiltinStringLiteralConvertible", "init"]
+- !private ["Ps37_BuiltinUTF16StringLiteralConvertible", "init"]
+- !private ["Ps39_BuiltinUnicodeScalarLiteralConvertible", "init"]
+- !private ["P10Foundation12_CFBridgable", "init"]
+- !private ["P10Foundation12_NSBridgable", "init"]
+- !private ["P10Foundation22_NSObjectRepresentable", "init"]
+- !private ["P10Foundation21_ObjectTypeBridgeable", "init"]
 depends-nominal:
 - "Ps9AnyObject"
+- !private "Sb"
+- !private "P10Foundation10Bridgeable"
+- !private "Vs9Character"
+- !private "Ps10Comparable"
 - "C13SwiftPractice9CoolClass"
+- "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- "Ps17CustomReflectable"
+- !private "Ps23CustomStringConvertible"
+- !private "Sd"
+- !private "Ps9Equatable"
+- !private "Ps41ExtendedGraphemeClusterLiteralConvertible"
+- !private "Sf"
+- !private "Ps8Hashable"
+- !private "Si"
+- !private "Vs5Int16"
+- !private "Vs5Int32"
+- !private "Vs5Int64"
+- !private "Vs4Int8"
+- !private "Ps10MirrorPath"
+- !private "P10Foundation8NSCoding"
+- !private "P10Foundation9NSCopying"
+- "C10Foundation7NSError"
+- !private "P10Foundation16NSObjectProtocol"
+- !private "P10Foundation14NSSecureCoding"
+- !private "C10Foundation5NSURL"
+- "Ps21NilLiteralConvertible"
+- "Sq"
+- !private "Ps12OutputStream"
+- !private "Ps10Streamable"
+- !private "SS"
+- !private "Ps30StringInterpolationConvertible"
+- !private "Ps24StringLiteralConvertible"
+- !private "Su"
+- !private "Vs6UInt16"
+- !private "Vs6UInt32"
+- !private "Vs6UInt64"
+- !private "Vs5UInt8"
+- !private "Sc"
+- !private "Ps31UnicodeScalarLiteralConvertible"
+- !private "Ps49_BuiltinExtendedGraphemeClusterLiteralConvertible"
+- !private "Ps32_BuiltinStringLiteralConvertible"
+- !private "Ps37_BuiltinUTF16StringLiteralConvertible"
+- !private "Ps39_BuiltinUnicodeScalarLiteralConvertible"
+- !private "P10Foundation12_CFBridgable"
+- !private "P10Foundation12_NSBridgable"
+- !private "P10Foundation22_NSObjectRepresentable"
+- !private "P10Foundation21_ObjectTypeBridgeable"
 depends-dynamic-lookup:
 depends-external:
 - "/usr/lib/swift/linux/x86_64/Swift.swiftmodule"
@@ -39,4 +145,4 @@ depends-external:
 - "/usr/lib/swift/linux/x86_64/SwiftOnoneSupport.swiftmodule"
 - "/usr/lib/swift/linux/x86_64/Foundation.swiftmodule"
 - "/usr/lib/swift/linux/x86_64/Glibc.swiftmodule"
-interface-hash: "37b1b316c680c96965cae38ec3e5528f"
+interface-hash: "c4270b6d8ae15f6370d19fd4fc92c33e"

@@ -29,9 +29,9 @@ func KeyValuePairStuff() {
     print(kvPair.getValue());
 }
 
-doHello();
-params(personName: "Hello")
-ListStuff();
-KeyValuePairStuff();
-CoolClass.Hello();
+//doHello();
+//params(personName: "Hello")
+//ListStuff();
+//KeyValuePairStuff();
+CoolClass.Network();
 
